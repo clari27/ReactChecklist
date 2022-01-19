@@ -1,4 +1,5 @@
 import ControlledCheckbox from './ControlledCheckbox';
+import RadioButtons from './RadioButtons';
 
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
 
-      <ControlledCheckbox/>
+      <RadioButtons/>
       </header>
       
     </div>

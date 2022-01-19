@@ -5,6 +5,7 @@ import FormGroup from "@mui/material/FormGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import FormControl from "@mui/material/FormControl";
 import FormLabel from "@mui/material/FormLabel";
+import RadioButtons from './RadioButtons';
 
 
 async function getTasks() {
@@ -12,23 +13,25 @@ async function getTasks() {
   return await data.json();
 }
 
-function ControlledCheckbox() {
-  const [tasks, setTask] = useState([]);
 
-  useEffect(() => {
-    let mounted = true;
-    getTasks().then((tasks) => {
-      if (mounted) {
-        setTask(tasks);
-      }
-    });
-    return () => (mounted = false);
-  }, []);
+function ControlledCheckbox({parentToChild}) {
+
+   const [tasks, setTask] = useState([]);
+
+  // useEffect(() => {
+  //   let mounted = true;
+  //   getTasks().then((tasks) => {
+  //     if (mounted) {
+  //       setTask(tasks);
+  //     }
+  //   });
+  //   return () => (mounted = false);
+  // }, []);
 
 
   const handleChange = (taskId) => {
 
-    const result = tasks.filter((task) => {
+    const result = parentToChild.filter((task) => {
     
     if (task.id === taskId) {
     
@@ -43,15 +46,23 @@ function ControlledCheckbox() {
     setTask(result);
     
     };
+   
+
+
+
 
   return (
+
+    
     <FormControl>
       <FormLabel component="legend">
         <h1>Workflow Itau Pulverizada</h1>
       </FormLabel>
 
       <FormGroup>
-        {tasks.map((task) => {
+        {parentToChild.map((task) => {
+          
+        
           return (
             <FormGroup key={task.id}>
               <FormControlLabel
@@ -66,7 +77,8 @@ function ControlledCheckbox() {
               />
             </FormGroup>
           );
-        })}
+        }
+        )}
       </FormGroup>
     </FormControl>
   );
