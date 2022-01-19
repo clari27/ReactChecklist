@@ -1,0 +1,17 @@
+{
+  "tasks": [
+    { "id": 1, "item": "Enviar valores de PU para AF" ,         "check": "automatico",  "status": true},
+    { "id": 2, "item": "Receber valores de PU do AF" ,          "check": "manual", "status": false},
+    { "id": 3, "item": "Valores alinhados com AF" ,             "check": "manual", "status": false},
+    { "id": 4, "item": "PU lançado na Cetip" ,                  "check": "automatico", "status": false},
+    { "id": 5, "item": "Recebimento do relatório do servicer" , "check": "manual", "status": false},
+    { "id": 6, "item": "Fechamento " ,                          "check": "manual","status": false},
+    { "id": 7, "item": "Lançar na Cetip (se necessário) " ,     "check": "manual", "status": false},
+    { "id": 8, "item": "Lançar fechamento no Galáxia" ,         "check": "automatico", "status": false},
+    { "id": 9, "item": "Relatório do investidor completo" ,     "check": "automatico", "status": false},
+    { "id": 10, "item": "Conferir Valores na Cetip" ,           "check": "manual", "status": false},
+    { "id": 11, "item": "Conferir saldo em conta" ,             "check": "automatico", "status": false},
+    { "id": 12, "item": "Operação Liquidada" ,                  "check": "manual", "status": false}
+    
+  ]
+}
