@@ -1,16 +1,10 @@
 import * as React from "react";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Checkbox from "@mui/material/Checkbox";
 import FormGroup from "@mui/material/FormGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import FormControl from "@mui/material/FormControl";
 import FormLabel from "@mui/material/FormLabel";
-import RadioButtons from "./RadioButtons";
-
-async function getTasks() {
-  const data = await fetch("http://localhost:3333/tasks");
-  return await data.json();
-}
 
 function ControlledCheckbox({ parentToChild }) {
   const [tasks, setTask] = useState([]);

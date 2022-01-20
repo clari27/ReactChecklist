@@ -1,6 +1,5 @@
 import * as React from "react";
 import { useEffect, useState } from "react";
-import FormGroup from "@mui/material/FormGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import FormControl from "@mui/material/FormControl";
 import FormLabel from "@mui/material/FormLabel";
@@ -51,8 +50,11 @@ function RadioButtons() {
   return (
     <Box flexDirection="row">
       <FormControl>
-        <FormLabel id="demo-radio-buttons-group-label">Operação</FormLabel>
+        <FormLabel id="demo-radio-buttons-group-label">
+          Selecione o tipo de Operação
+        </FormLabel>
         <RadioGroup
+          defaultValue="1"
           aria-labelledby="demo-radio-buttons-group-label"
           name="radio-buttons-group"
         >
@@ -60,13 +62,13 @@ function RadioButtons() {
             value={"1"}
             control={<Radio />}
             onChange={() => taskFilter("bradesco", "corporativa", "automatico")}
-            label="Corporativo_LastroAutomático_Bradesco"
+            label="Corporativo/Lastro Automático/Bradesco"
           />
           <FormControlLabel
             value={"2"}
             control={<Radio />}
             onChange={() => taskFilter("itau", "corporativa", "automatico")}
-            label="Corporativo_lastroAutomático_Itaú"
+            label="Corporativo/Lastro Automático/Itaú"
           />
           <FormControlLabel
             value={"3"}
@@ -74,25 +76,25 @@ function RadioButtons() {
             onChange={() =>
               taskFilter("bradesco", "corporativa", "nao_automatico")
             }
-            label="Corporativo_LastroNaoAutomático_Bradesco"
+            label="Corporativo/Lastro Não Automático/Bradesco"
           />
           <FormControlLabel
             value={"4"}
             control={<Radio />}
             onChange={() => taskFilter("itau", "corporativa", "nao_automatico")}
-            label="Corporativo_LastroNaoAutomático_Itaú"
+            label="Corporativo/Lastro Não Automático/Itaú"
           />
           <FormControlLabel
             value={"5"}
             control={<Radio />}
             onChange={() => taskFilter("bradesco", "pulverizada", "n/a")}
-            label="Pulverizado_Bradesco"
+            label="Pulverizada/Bradesco"
           />
           <FormControlLabel
             value={"6"}
             control={<Radio />}
             onChange={() => taskFilter("itau", "pulverizada", "n/a")}
-            label="Pulverizado_Itaú"
+            label="Pulverizada/Itaú"
           />
         </RadioGroup>
       </FormControl>
