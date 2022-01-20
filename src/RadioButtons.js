@@ -16,6 +16,8 @@ async function getTasks() {
 
 function RadioButtons() {
   const [tasks, setTask] = useState([]);
+  const [filteredResults, setFilteredResults] = useState([]);
+  const [checked, setChecked] = React.useState(false);
 
   useEffect(() => {
     let mounted = true;
@@ -38,7 +40,12 @@ function RadioButtons() {
         return task;
       }
     });
-    setTask(result);
+
+    setFilteredResults(result);
+  };
+
+  const handleChange = (event) => {
+    setChecked(event.target.checked);
   };
 
   return (
@@ -89,7 +96,7 @@ function RadioButtons() {
           />
         </RadioGroup>
       </FormControl>
-      <ControlledCheckbox parentToChild={tasks} />
+      <ControlledCheckbox parentToChild={filteredResults} />
     </Box>
   );
 }

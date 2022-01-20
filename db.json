@@ -1,87 +1,702 @@
 {
   "tasks": [
-    
-    { "id": 1, "item": "Enviar valores de PU para AF" ,        "bancoLiquidante": "itau", "operacao": "pulverizada", "lastro": "n/a", "check": "automatico",  "status": true},
-    { "id": 2, "item": "Receber valores de PU do AF" ,          "bancoLiquidante": "itau", "operacao": "pulverizada","lastro": "n/a", "check": "manual", "status": false},
-    { "id": 3, "item": "Valores alinhados com AF" ,             "bancoLiquidante": "itau", "operacao": "pulverizada","lastro": "n/a", "check": "manual", "status": false},
-    { "id": 4, "item": "PU lançado na Cetip" ,                  "bancoLiquidante": "itau", "operacao": "pulverizada","lastro": "n/a", "check": "automatico", "status": false},
-    { "id": 5, "item": "Recebimento do relatório do servicer" ,"bancoLiquidante": "itau", "operacao": "pulverizada", "lastro": "n/a", "check": "manual", "status": false},
-    { "id": 6, "item": "Fechamento " ,                          "bancoLiquidante": "itau", "operacao": "pulverizada","lastro": "n/a", "check": "manual","status": false},
-    { "id": 7, "item": "Lançar na Cetip (se necessário) " ,     "bancoLiquidante": "itau", "operacao": "pulverizada","lastro": "n/a", "check": "manual", "status": false},
-    { "id": 8, "item": "Lançar fechamento no Galáxia" ,         "bancoLiquidante": "itau", "operacao": "pulverizada","lastro": "n/a", "check": "automatico", "status": false},
-    { "id": 9, "item": "Relatório do investidor completo" ,     "bancoLiquidante": "itau", "operacao": "pulverizada","lastro": "n/a", "check": "automatico", "status": false},
-    { "id": 10, "item": "Conferir Valores na Cetip" ,           "bancoLiquidante": "itau", "operacao": "pulverizada","lastro": "n/a", "check": "manual", "status": false},
-    { "id": 11, "item": "Conferir saldo em conta" ,             "bancoLiquidante": "itau", "operacao": "pulverizada","lastro": "n/a", "check": "automatico", "status": false},
-    { "id": 12, "item": "Operação Liquidada" ,                  "bancoLiquidante": "itau", "operacao": "pulverizada","lastro": "n/a", "check": "manual", "status": false},
+    {
+      "id": 1,
+      "item": "Enviar valores de PU para AF",
+      "bancoLiquidante": "itau",
+      "operacao": "pulverizada",
+      "lastro": "n/a",
+      "check": "automatico",
+      "status": true
+    },
+    {
+      "id": 2,
+      "item": "Receber valores de PU do AF",
+      "bancoLiquidante": "itau",
+      "operacao": "pulverizada",
+      "lastro": "n/a",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 3,
+      "item": "Valores alinhados com AF",
+      "bancoLiquidante": "itau",
+      "operacao": "pulverizada",
+      "lastro": "n/a",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 4,
+      "item": "PU lançado na Cetip",
+      "bancoLiquidante": "itau",
+      "operacao": "pulverizada",
+      "lastro": "n/a",
+      "check": "automatico",
+      "status": false
+    },
+    {
+      "id": 5,
+      "item": "Recebimento do relatório do servicer",
+      "bancoLiquidante": "itau",
+      "operacao": "pulverizada",
+      "lastro": "n/a",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 6,
+      "item": "Fechamento ",
+      "bancoLiquidante": "itau",
+      "operacao": "pulverizada",
+      "lastro": "n/a",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 7,
+      "item": "Lançar na Cetip (se necessário) ",
+      "bancoLiquidante": "itau",
+      "operacao": "pulverizada",
+      "lastro": "n/a",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 8,
+      "item": "Lançar fechamento no Galáxia",
+      "bancoLiquidante": "itau",
+      "operacao": "pulverizada",
+      "lastro": "n/a",
+      "check": "automatico",
+      "status": false
+    },
+    {
+      "id": 9,
+      "item": "Relatório do investidor completo",
+      "bancoLiquidante": "itau",
+      "operacao": "pulverizada",
+      "lastro": "n/a",
+      "check": "automatico",
+      "status": false
+    },
+    {
+      "id": 10,
+      "item": "Conferir Valores na Cetip",
+      "bancoLiquidante": "itau",
+      "operacao": "pulverizada",
+      "lastro": "n/a",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 11,
+      "item": "Conferir saldo em conta",
+      "bancoLiquidante": "itau",
+      "operacao": "pulverizada",
+      "lastro": "n/a",
+      "check": "automatico",
+      "status": false
+    },
+    {
+      "id": 12,
+      "item": "Operação Liquidada",
+      "bancoLiquidante": "itau",
+      "operacao": "pulverizada",
+      "lastro": "n/a",
+      "check": "manual",
+      "status": false
+    },
 
-    { "id": 13, "item": "Enviar valores de PU para AF" ,        "bancoLiquidante": "bradesco", "operacao": "pulverizada", "lastro": "n/a", "check": "automatico",  "status": true},
-    { "id": 14, "item": "Receber valores de PU do AF" ,          "bancoLiquidante": "bradesco", "operacao": "pulverizada","lastro": "n/a", "check": "manual", "status": false},
-    { "id": 15, "item": "Valores alinhados com AF" ,             "bancoLiquidante": "bradesco", "operacao": "pulverizada","lastro": "n/a", "check": "manual", "status": false},
-    { "id": 16, "item": "PU lançado na Cetip" ,                  "bancoLiquidante": "bradesco", "operacao": "pulverizada","lastro": "n/a", "check": "automatico", "status": false},
-    { "id": 17, "item": "Recebimento do relatório do servicer" ,"bancoLiquidante": "bradesco", "operacao": "pulverizada", "lastro": "n/a", "check": "manual", "status": false},
-    { "id": 18, "item": "Fechamento " ,                          "bancoLiquidante": "bradesco", "operacao": "pulverizada","lastro": "n/a", "check": "manual","status": false},
-    { "id": 19, "item": "Lançar na Cetip (se necessário) " ,     "bancoLiquidante": "bradesco", "operacao": "pulverizada","lastro": "n/a", "check": "manual", "status": false},
-    { "id": 20, "item": "Lançar fechamento no Galáxia" ,         "bancoLiquidante": "bradesco", "operacao": "pulverizada","lastro": "n/a", "check": "automatico", "status": false},
-    { "id": 21, "item": "Relatório do investidor completo" ,     "bancoLiquidante": "bradesco", "operacao": "pulverizada","lastro": "n/a", "check": "automatico", "status": false},
-    { "id": 22, "item": "Conferir Valores na Cetip" ,           "bancoLiquidante": "bradesco", "operacao": "pulverizada","lastro": "n/a", "check": "manual", "status": false},
-    { "id": 23, "item": "Conferir saldo em conta" ,             "bancoLiquidante": "bradesco", "operacao": "pulverizada","lastro": "n/a", "check": "automatico", "status": false},
-    { "id": 24, "item": "Operação Liquidada" ,                  "bancoLiquidante": "bradesco", "operacao": "pulverizada","lastro": "n/a", "check": "manual", "status": false},
+    {
+      "id": 13,
+      "item": "Enviar valores de PU para AF",
+      "bancoLiquidante": "bradesco",
+      "operacao": "pulverizada",
+      "lastro": "n/a",
+      "check": "automatico",
+      "status": true
+    },
+    {
+      "id": 14,
+      "item": "Receber valores de PU do AF",
+      "bancoLiquidante": "bradesco",
+      "operacao": "pulverizada",
+      "lastro": "n/a",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 15,
+      "item": "Valores alinhados com AF",
+      "bancoLiquidante": "bradesco",
+      "operacao": "pulverizada",
+      "lastro": "n/a",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 16,
+      "item": "PU lançado na Cetip",
+      "bancoLiquidante": "bradesco",
+      "operacao": "pulverizada",
+      "lastro": "n/a",
+      "check": "automatico",
+      "status": false
+    },
+    {
+      "id": 17,
+      "item": "Recebimento do relatório do servicer",
+      "bancoLiquidante": "bradesco",
+      "operacao": "pulverizada",
+      "lastro": "n/a",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 18,
+      "item": "Fechamento ",
+      "bancoLiquidante": "bradesco",
+      "operacao": "pulverizada",
+      "lastro": "n/a",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 19,
+      "item": "Lançar na Cetip (se necessário) ",
+      "bancoLiquidante": "bradesco",
+      "operacao": "pulverizada",
+      "lastro": "n/a",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 20,
+      "item": "Lançar fechamento no Galáxia",
+      "bancoLiquidante": "bradesco",
+      "operacao": "pulverizada",
+      "lastro": "n/a",
+      "check": "automatico",
+      "status": false
+    },
+    {
+      "id": 21,
+      "item": "Relatório do investidor completo",
+      "bancoLiquidante": "bradesco",
+      "operacao": "pulverizada",
+      "lastro": "n/a",
+      "check": "automatico",
+      "status": false
+    },
+    {
+      "id": 22,
+      "item": "Conferir Valores na Cetip",
+      "bancoLiquidante": "bradesco",
+      "operacao": "pulverizada",
+      "lastro": "n/a",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 23,
+      "item": "Conferir saldo em conta",
+      "bancoLiquidante": "bradesco",
+      "operacao": "pulverizada",
+      "lastro": "n/a",
+      "check": "automatico",
+      "status": false
+    },
+    {
+      "id": 24,
+      "item": "Operação Liquidada",
+      "bancoLiquidante": "bradesco",
+      "operacao": "pulverizada",
+      "lastro": "n/a",
+      "check": "manual",
+      "status": false
+    },
 
-    { "id": 25, "item": "Enviar valores de PU para AF" ,        "bancoLiquidante": "bradesco", "operacao": "corporativa", "lastro": "automatico", "check": "automatico",  "status": true},
-    { "id": 26, "item": "Receber valores de PU do AF" ,         "bancoLiquidante": "bradesco", "operacao": "corporativa", "lastro": "automatico", "check": "manual",  "status": true},
-    { "id": 27, "item":  "Valores alinhados com AF" ,            "bancoLiquidante": "bradesco", "operacao": "corporativa","lastro": "automatico", "check": "manual", "status": false},
-    { "id": 28, "item": "PU lançado na Cetip" ,                  "bancoLiquidante": "bradesco", "operacao": "corporativa","lastro": "automatico", "check": "automatico", "status": false},
-    { "id": 29, "item": "Fechamento " ,                         "bancoLiquidante": "bradesco", "operacao": "corporativa","lastro": "automatico", "check": "manual","status": false},
-    { "id": 30, "item": "Lançar fechamento no Galáxia" ,        "bancoLiquidante": "bradesco", "operacao": "corporativa","lastro": "automatico", "check": "automatico", "status": false},
-    { "id": 31, "item": "Recebimento do Lastro" ,               "bancoLiquidante": "bradesco", "operacao": "corporativa","lastro": "automatico", "check": "manual", "status": false},
-    { "id": 32, "item": "Completar fechamento" ,                "bancoLiquidante": "bradesco", "operacao": "corporativa","lastro": "automatico", "check": "manual", "status": false},
-    { "id": 33, "item": "Relatório do investidor completo" ,     "bancoLiquidante": "bradesco", "operacao": "corporativa","lastro": "automatico", "check": "automatico", "status": false},
-    { "id": 34, "item": "Conferir Valores na Cetip" ,           "bancoLiquidante": "bradesco", "operacao": "corporativa","lastro": "automatico", "check": "manual", "status": false},
-    { "id": 35, "item": "Conferir saldo em conta" ,             "bancoLiquidante": "bradesco", "operacao": "corporativa","lastro": "automatico", "check": "automatico", "status": false},
-    { "id": 36, "item": "Operação Liquidada" ,                  "bancoLiquidante": "bradesco", "operacao": "corporativa","lastro": "automatico", "check": "manual", "status": false},
+    {
+      "id": 25,
+      "item": "Enviar valores de PU para AF",
+      "bancoLiquidante": "bradesco",
+      "operacao": "corporativa",
+      "lastro": "automatico",
+      "check": "automatico",
+      "status": true
+    },
+    {
+      "id": 26,
+      "item": "Receber valores de PU do AF",
+      "bancoLiquidante": "bradesco",
+      "operacao": "corporativa",
+      "lastro": "automatico",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 27,
+      "item": "Valores alinhados com AF",
+      "bancoLiquidante": "bradesco",
+      "operacao": "corporativa",
+      "lastro": "automatico",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 28,
+      "item": "PU lançado na Cetip",
+      "bancoLiquidante": "bradesco",
+      "operacao": "corporativa",
+      "lastro": "automatico",
+      "check": "automatico",
+      "status": false
+    },
+    {
+      "id": 29,
+      "item": "Fechamento ",
+      "bancoLiquidante": "bradesco",
+      "operacao": "corporativa",
+      "lastro": "automatico",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 30,
+      "item": "Lançar fechamento no Galáxia",
+      "bancoLiquidante": "bradesco",
+      "operacao": "corporativa",
+      "lastro": "automatico",
+      "check": "automatico",
+      "status": false
+    },
+    {
+      "id": 31,
+      "item": "Recebimento do Lastro",
+      "bancoLiquidante": "bradesco",
+      "operacao": "corporativa",
+      "lastro": "automatico",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 32,
+      "item": "Completar fechamento",
+      "bancoLiquidante": "bradesco",
+      "operacao": "corporativa",
+      "lastro": "automatico",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 33,
+      "item": "Relatório do investidor completo",
+      "bancoLiquidante": "bradesco",
+      "operacao": "corporativa",
+      "lastro": "automatico",
+      "check": "automatico",
+      "status": false
+    },
+    {
+      "id": 34,
+      "item": "Conferir Valores na Cetip",
+      "bancoLiquidante": "bradesco",
+      "operacao": "corporativa",
+      "lastro": "automatico",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 35,
+      "item": "Conferir saldo em conta",
+      "bancoLiquidante": "bradesco",
+      "operacao": "corporativa",
+      "lastro": "automatico",
+      "check": "automatico",
+      "status": false
+    },
+    {
+      "id": 36,
+      "item": "Operação Liquidada",
+      "bancoLiquidante": "bradesco",
+      "operacao": "corporativa",
+      "lastro": "automatico",
+      "check": "manual",
+      "status": false
+    },
 
-    { "id": 37, "item": "Enviar valores de PU para AF" ,        "bancoLiquidante": "itau", "operacao": "corporativa", "lastro": "automatico", "check": "automatico",  "status": true},
-    { "id": 38, "item": "Receber valores de PU do AF" ,         "bancoLiquidante": "itau", "operacao": "corporativa", "lastro": "automatico", "check": "manual",  "status": true},
-    { "id": 39, "item":  "Valores alinhados com AF" ,            "bancoLiquidante": "itau", "operacao": "corporativa","lastro": "automatico", "check": "manual", "status": false},
-    { "id": 40, "item": "PU lançado na Cetip" ,                  "bancoLiquidante": "itau", "operacao": "corporativa","lastro": "automatico", "check": "automatico", "status": false},
-    { "id": 41, "item": "Fechamento " ,                         "bancoLiquidante": "itau", "operacao": "corporativa","lastro": "automatico", "check": "manual","status": false},
-    { "id": 42, "item": "Lançar fechamento no Galáxia" ,        "bancoLiquidante": "itau", "operacao": "corporativa","lastro": "automatico", "check": "automatico", "status": false},
-    { "id": 43, "item": "Recebimento do Lastro" ,               "bancoLiquidante": "itau", "operacao": "corporativa","lastro": "automatico", "check": "manual", "status": false},
-    { "id": 44, "item": "Completar fechamento" ,                "bancoLiquidante": "itau", "operacao": "corporativa","lastro": "automatico", "check": "manual", "status": false},
-    { "id": 45, "item": "Relatório do investidor completo" ,     "bancoLiquidante": "itau", "operacao": "corporativa","lastro": "automatico", "check": "automatico", "status": false},
-    { "id": 46, "item": "Conferir Valores na Cetip" ,           "bancoLiquidante": "itau", "operacao": "corporativa","lastro": "automatico", "check": "manual", "status": false},
-    { "id": 47, "item": "Conferir saldo em conta" ,             "bancoLiquidante": "itau", "operacao": "corporativa","lastro": "automatico", "check": "automatico", "status": false},
-    { "id": 48, "item": "Operação Liquidada" ,                  "bancoLiquidante": "itau", "operacao": "corporativa","lastro": "automatico", "check": "manual", "status": false},
+    {
+      "id": 37,
+      "item": "Enviar valores de PU para AF",
+      "bancoLiquidante": "itau",
+      "operacao": "corporativa",
+      "lastro": "automatico",
+      "check": "automatico",
+      "status": true
+    },
+    {
+      "id": 38,
+      "item": "Receber valores de PU do AF",
+      "bancoLiquidante": "itau",
+      "operacao": "corporativa",
+      "lastro": "automatico",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 39,
+      "item": "Valores alinhados com AF",
+      "bancoLiquidante": "itau",
+      "operacao": "corporativa",
+      "lastro": "automatico",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 40,
+      "item": "PU lançado na Cetip",
+      "bancoLiquidante": "itau",
+      "operacao": "corporativa",
+      "lastro": "automatico",
+      "check": "automatico",
+      "status": false
+    },
+    {
+      "id": 41,
+      "item": "Fechamento ",
+      "bancoLiquidante": "itau",
+      "operacao": "corporativa",
+      "lastro": "automatico",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 42,
+      "item": "Lançar fechamento no Galáxia",
+      "bancoLiquidante": "itau",
+      "operacao": "corporativa",
+      "lastro": "automatico",
+      "check": "automatico",
+      "status": false
+    },
+    {
+      "id": 43,
+      "item": "Recebimento do Lastro",
+      "bancoLiquidante": "itau",
+      "operacao": "corporativa",
+      "lastro": "automatico",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 44,
+      "item": "Completar fechamento",
+      "bancoLiquidante": "itau",
+      "operacao": "corporativa",
+      "lastro": "automatico",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 45,
+      "item": "Relatório do investidor completo",
+      "bancoLiquidante": "itau",
+      "operacao": "corporativa",
+      "lastro": "automatico",
+      "check": "automatico",
+      "status": false
+    },
+    {
+      "id": 46,
+      "item": "Conferir Valores na Cetip",
+      "bancoLiquidante": "itau",
+      "operacao": "corporativa",
+      "lastro": "automatico",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 47,
+      "item": "Conferir saldo em conta",
+      "bancoLiquidante": "itau",
+      "operacao": "corporativa",
+      "lastro": "automatico",
+      "check": "automatico",
+      "status": false
+    },
+    {
+      "id": 48,
+      "item": "Operação Liquidada",
+      "bancoLiquidante": "itau",
+      "operacao": "corporativa",
+      "lastro": "automatico",
+      "check": "manual",
+      "status": false
+    },
 
-    { "id": 49, "item": "Enviar valores de PU para AF" ,        "bancoLiquidante": "bradesco", "operacao": "corporativa", "lastro": "nao_automatico", "check": "automatico",  "status": true},
-    { "id": 50, "item": "Receber valores de PU do AF" ,         "bancoLiquidante": "bradesco", "operacao": "corporativa", "lastro": "nao_automatico", "check": "manual",  "status": true},
-    { "id": 51, "item":  "Valores alinhados com AF" ,            "bancoLiquidante": "bradesco", "operacao": "corporativa","lastro": "nao_automatico", "check": "manual", "status": false},
-    { "id": 52, "item": "PU lançado na Cetip" ,                  "bancoLiquidante": "bradesco", "operacao": "corporativa","lastro": "nao_automatico", "check": "automatico", "status": false},
-    { "id": 53, "item": "Fechamento " ,                         "bancoLiquidante": "bradesco", "operacao": "corporativa","lastro": "nao_automatico", "check": "manual","status": false},
-    { "id": 54, "item": "Cobrança do Lastro " ,                  "bancoLiquidante": "bradesco", "operacao": "corporativa","lastro": "nao_automatico", "check": "manual","status": false},
-    { "id": 55, "item": "Recebimento do Lastro " ,               "bancoLiquidante": "bradesco", "operacao": "corporativa","lastro": "nao_automatico", "check": "manual","status": false},
-    { "id": 56, "item": "Completar fechamento" ,                "bancoLiquidante": "bradesco", "operacao": "corporativa","lastro": "nao_automatico", "check": "manual", "status": false},
-    { "id": 57, "item": "Lançar na Cetip (se necessário) " ,     "bancoLiquidante": "bradesco", "operacao": "corporativa","lastro": "nao_automatico", "check": "manual", "status": false},
-    { "id": 58, "item": "Lançar fechamento no Galáxia" ,        "bancoLiquidante": "bradesco", "operacao": "corporativa","lastro": "nao_automatico", "check": "automatico", "status": false},
-    { "id": 59, "item": "Relatório do investidor completo" ,     "bancoLiquidante": "bradesco", "operacao": "corporativa","lastro": "nao_automatico", "check": "automatico", "status": false},
-    { "id": 60, "item": "Conferir Valores na Cetip" ,           "bancoLiquidante": "bradesco", "operacao": "corporativa","lastro": "nao_automatico", "check": "manual", "status": false},
-    { "id": 61, "item": "Conferir saldo em conta" ,             "bancoLiquidante": "bradesco", "operacao": "corporativa","lastro": "nao_automatico", "check": "automatico", "status": false},
-    { "id": 62, "item": "Operação Liquidada" ,                  "bancoLiquidante": "bradesco", "operacao": "corporativa","lastro": "nao_automatico", "check": "manual", "status": false},
+    {
+      "id": 49,
+      "item": "Enviar valores de PU para AF",
+      "bancoLiquidante": "bradesco",
+      "operacao": "corporativa",
+      "lastro": "nao_automatico",
+      "check": "automatico",
+      "status": true
+    },
+    {
+      "id": 50,
+      "item": "Receber valores de PU do AF",
+      "bancoLiquidante": "bradesco",
+      "operacao": "corporativa",
+      "lastro": "nao_automatico",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 51,
+      "item": "Valores alinhados com AF",
+      "bancoLiquidante": "bradesco",
+      "operacao": "corporativa",
+      "lastro": "nao_automatico",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 52,
+      "item": "PU lançado na Cetip",
+      "bancoLiquidante": "bradesco",
+      "operacao": "corporativa",
+      "lastro": "nao_automatico",
+      "check": "automatico",
+      "status": false
+    },
+    {
+      "id": 53,
+      "item": "Fechamento ",
+      "bancoLiquidante": "bradesco",
+      "operacao": "corporativa",
+      "lastro": "nao_automatico",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 54,
+      "item": "Cobrança do Lastro ",
+      "bancoLiquidante": "bradesco",
+      "operacao": "corporativa",
+      "lastro": "nao_automatico",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 55,
+      "item": "Recebimento do Lastro ",
+      "bancoLiquidante": "bradesco",
+      "operacao": "corporativa",
+      "lastro": "nao_automatico",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 56,
+      "item": "Completar fechamento",
+      "bancoLiquidante": "bradesco",
+      "operacao": "corporativa",
+      "lastro": "nao_automatico",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 57,
+      "item": "Lançar na Cetip (se necessário) ",
+      "bancoLiquidante": "bradesco",
+      "operacao": "corporativa",
+      "lastro": "nao_automatico",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 58,
+      "item": "Lançar fechamento no Galáxia",
+      "bancoLiquidante": "bradesco",
+      "operacao": "corporativa",
+      "lastro": "nao_automatico",
+      "check": "automatico",
+      "status": false
+    },
+    {
+      "id": 59,
+      "item": "Relatório do investidor completo",
+      "bancoLiquidante": "bradesco",
+      "operacao": "corporativa",
+      "lastro": "nao_automatico",
+      "check": "automatico",
+      "status": false
+    },
+    {
+      "id": 60,
+      "item": "Conferir Valores na Cetip",
+      "bancoLiquidante": "bradesco",
+      "operacao": "corporativa",
+      "lastro": "nao_automatico",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 61,
+      "item": "Conferir saldo em conta",
+      "bancoLiquidante": "bradesco",
+      "operacao": "corporativa",
+      "lastro": "nao_automatico",
+      "check": "automatico",
+      "status": false
+    },
+    {
+      "id": 62,
+      "item": "Operação Liquidada",
+      "bancoLiquidante": "bradesco",
+      "operacao": "corporativa",
+      "lastro": "nao_automatico",
+      "check": "manual",
+      "status": false
+    },
 
-    { "id": 63, "item": "Enviar valores de PU para AF" ,        "bancoLiquidante": "itau", "operacao": "corporativa", "lastro": "nao_automatico", "check": "automatico",  "status": true},
-    { "id": 64, "item": "Receber valores de PU do AF" ,         "bancoLiquidante": "itau", "operacao": "corporativa", "lastro": "nao_automatico", "check": "manual",  "status": true},
-    { "id": 65, "item":  "Valores alinhados com AF" ,            "bancoLiquidante": "itau", "operacao": "corporativa","lastro": "nao_automatico", "check": "manual", "status": false},
-    { "id": 66, "item": "PU lançado na Cetip" ,                  "bancoLiquidante": "itau", "operacao": "corporativa","lastro": "nao_automatico", "check": "automatico", "status": false},
-    { "id": 67, "item": "Fechamento " ,                         "bancoLiquidante": "itau", "operacao": "corporativa","lastro": "nao_automatico", "check": "manual","status": false},
-    { "id": 68, "item": "Cobrança do Lastro " ,                  "bancoLiquidante": "itau", "operacao": "corporativa","lastro": "nao_automatico", "check": "manual","status": false},
-    { "id": 69, "item": "Recebimento do Lastro " ,               "bancoLiquidante": "itau", "operacao": "corporativa","lastro": "nao_automatico", "check": "manual","status": false},
-    { "id": 70, "item": "Completar fechamento" ,                "bancoLiquidante": "itau", "operacao": "corporativa","lastro": "nao_automatico", "check": "manual", "status": false},
-    { "id": 71, "item": "Lançar na Cetip (se necessário) " ,     "bancoLiquidante": "itau", "operacao": "corporativa","lastro": "nao_automatico", "check": "manual", "status": false},
-    { "id": 72, "item": "Lançar fechamento no Galáxia" ,        "bancoLiquidante": "itau", "operacao": "corporativa","lastro": "nao_automatico", "check": "automatico", "status": false},
-    { "id": 73, "item": "Relatório do investidor completo" ,     "bancoLiquidante": "itau", "operacao": "corporativa","lastro": "nao_automatico", "check": "automatico", "status": false},
-    { "id": 74, "item": "Enviar Planilha Excel Itau" ,          "bancoLiquidante": "itau", "operacao": "corporativa","lastro": "nao_automatico", "check": "manual", "status": false},
-    { "id": 75, "item": "Conferir Valores na Cetip" ,           "bancoLiquidante": "itau", "operacao": "corporativa","lastro": "nao_automatico", "check": "manual", "status": false},
-    { "id": 76, "item": "Conferir saldo em conta" ,             "bancoLiquidante": "itau", "operacao": "corporativa","lastro": "nao_automatico", "check": "automatico", "status": false},
-    { "id": 77, "item": "Operação Liquidada" ,                  "bancoLiquidante": "itau", "operacao": "corporativa","lastro": "nao_automatico", "check": "manual", "status": false}
+    {
+      "id": 63,
+      "item": "Enviar valores de PU para AF",
+      "bancoLiquidante": "itau",
+      "operacao": "corporativa",
+      "lastro": "nao_automatico",
+      "check": "automatico",
+      "status": true
+    },
+    {
+      "id": 64,
+      "item": "Receber valores de PU do AF",
+      "bancoLiquidante": "itau",
+      "operacao": "corporativa",
+      "lastro": "nao_automatico",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 65,
+      "item": "Valores alinhados com AF",
+      "bancoLiquidante": "itau",
+      "operacao": "corporativa",
+      "lastro": "nao_automatico",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 66,
+      "item": "PU lançado na Cetip",
+      "bancoLiquidante": "itau",
+      "operacao": "corporativa",
+      "lastro": "nao_automatico",
+      "check": "automatico",
+      "status": false
+    },
+    {
+      "id": 67,
+      "item": "Fechamento ",
+      "bancoLiquidante": "itau",
+      "operacao": "corporativa",
+      "lastro": "nao_automatico",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 68,
+      "item": "Cobrança do Lastro ",
+      "bancoLiquidante": "itau",
+      "operacao": "corporativa",
+      "lastro": "nao_automatico",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 69,
+      "item": "Recebimento do Lastro ",
+      "bancoLiquidante": "itau",
+      "operacao": "corporativa",
+      "lastro": "nao_automatico",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 70,
+      "item": "Completar fechamento",
+      "bancoLiquidante": "itau",
+      "operacao": "corporativa",
+      "lastro": "nao_automatico",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 71,
+      "item": "Lançar na Cetip (se necessário) ",
+      "bancoLiquidante": "itau",
+      "operacao": "corporativa",
+      "lastro": "nao_automatico",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 72,
+      "item": "Lançar fechamento no Galáxia",
+      "bancoLiquidante": "itau",
+      "operacao": "corporativa",
+      "lastro": "nao_automatico",
+      "check": "automatico",
+      "status": false
+    },
+    {
+      "id": 73,
+      "item": "Relatório do investidor completo",
+      "bancoLiquidante": "itau",
+      "operacao": "corporativa",
+      "lastro": "nao_automatico",
+      "check": "automatico",
+      "status": false
+    },
+    {
+      "id": 74,
+      "item": "Enviar Planilha Excel Itau",
+      "bancoLiquidante": "itau",
+      "operacao": "corporativa",
+      "lastro": "nao_automatico",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 75,
+      "item": "Conferir Valores na Cetip",
+      "bancoLiquidante": "itau",
+      "operacao": "corporativa",
+      "lastro": "nao_automatico",
+      "check": "manual",
+      "status": false
+    },
+    {
+      "id": 76,
+      "item": "Conferir saldo em conta",
+      "bancoLiquidante": "itau",
+      "operacao": "corporativa",
+      "lastro": "nao_automatico",
+      "check": "automatico",
+      "status": false
+    },
+    {
+      "id": 77,
+      "item": "Operação Liquidada",
+      "bancoLiquidante": "itau",
+      "operacao": "corporativa",
+      "lastro": "nao_automatico",
+      "check": "manual",
+      "status": false
+    }
   ]
 }

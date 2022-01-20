@@ -5,80 +5,49 @@ import FormGroup from "@mui/material/FormGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import FormControl from "@mui/material/FormControl";
 import FormLabel from "@mui/material/FormLabel";
-import RadioButtons from './RadioButtons';
-
+import RadioButtons from "./RadioButtons";
 
 async function getTasks() {
   const data = await fetch("http://localhost:3333/tasks");
   return await data.json();
 }
 
-
-function ControlledCheckbox({parentToChild}) {
-
-   const [tasks, setTask] = useState([]);
-
-  // useEffect(() => {
-  //   let mounted = true;
-  //   getTasks().then((tasks) => {
-  //     if (mounted) {
-  //       setTask(tasks);
-  //     }
-  //   });
-  //   return () => (mounted = false);
-  // }, []);
-
+function ControlledCheckbox({ parentToChild }) {
+  const [tasks, setTask] = useState([]);
 
   const handleChange = (taskId) => {
-
     const result = parentToChild.filter((task) => {
-    
-    if (task.id === taskId) {
-    
-    task.status = !task.status;
-    
-    }
-    
-    return task;
-    
+      if (task.id === taskId) {
+        task.status = !task.status;
+      }
+
+      return task;
     });
-    
+
     setTask(result);
-    
-    };
-   
-
-
-
+  };
 
   return (
-
-    
     <FormControl>
-      <FormLabel component="legend">
-        <h1>Workflow Itau Pulverizada</h1>
-      </FormLabel>
+      <FormLabel component="legend"></FormLabel>
 
       <FormGroup>
         {parentToChild.map((task) => {
-          
-        
           return (
             <FormGroup key={task.id}>
               <FormControlLabel
                 control={
                   <Checkbox
-                  onChange={() => handleChange(task.id)}
-                  checked={task.status}
-                  disabled={task.check === "automatico"}
+                    onChange={() => handleChange(task.id)}
+                    checked={task.status}
+                    disabled={task.check === "automatico"}
                   />
                 }
                 label={task.item}
               />
             </FormGroup>
           );
-        }
-        )}
+        })}
       </FormGroup>
     </FormControl>
   );
