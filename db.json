@@ -16,7 +16,7 @@
       "operacao": "pulverizada",
       "lastro": "n/a",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 3,
@@ -25,7 +25,7 @@
       "operacao": "pulverizada",
       "lastro": "n/a",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 4,
@@ -43,7 +43,7 @@
       "operacao": "pulverizada",
       "lastro": "n/a",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 6,
@@ -52,7 +52,7 @@
       "operacao": "pulverizada",
       "lastro": "n/a",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 7,
@@ -88,7 +88,7 @@
       "operacao": "pulverizada",
       "lastro": "n/a",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 11,
@@ -106,9 +106,8 @@
       "operacao": "pulverizada",
       "lastro": "n/a",
       "check": "manual",
-      "status": false
+      "status": true
     },
-
     {
       "id": 13,
       "item": "Enviar valores de PU para AF",
@@ -217,7 +216,6 @@
       "check": "manual",
       "status": false
     },
-
     {
       "id": 25,
       "item": "Enviar valores de PU para AF",
@@ -234,7 +232,7 @@
       "operacao": "corporativa",
       "lastro": "automatico",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 27,
@@ -243,7 +241,7 @@
       "operacao": "corporativa",
       "lastro": "automatico",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 28,
@@ -261,7 +259,7 @@
       "operacao": "corporativa",
       "lastro": "automatico",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 30,
@@ -279,7 +277,7 @@
       "operacao": "corporativa",
       "lastro": "automatico",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 32,
@@ -288,7 +286,7 @@
       "operacao": "corporativa",
       "lastro": "automatico",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 33,
@@ -306,7 +304,7 @@
       "operacao": "corporativa",
       "lastro": "automatico",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 35,
@@ -324,9 +322,8 @@
       "operacao": "corporativa",
       "lastro": "automatico",
       "check": "manual",
-      "status": false
+      "status": true
     },
-
     {
       "id": 37,
       "item": "Enviar valores de PU para AF",
@@ -435,7 +432,6 @@
       "check": "manual",
       "status": false
     },
-
     {
       "id": 49,
       "item": "Enviar valores de PU para AF",
@@ -562,7 +558,6 @@
       "check": "manual",
       "status": false
     },
-
     {
       "id": 63,
       "item": "Enviar valores de PU para AF",
