@@ -16,7 +16,7 @@
       "operacao": "pulverizada",
       "lastro": "n/a",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 3,
@@ -25,7 +25,7 @@
       "operacao": "pulverizada",
       "lastro": "n/a",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 4,
@@ -88,7 +88,7 @@
       "operacao": "pulverizada",
       "lastro": "n/a",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 11,
@@ -106,7 +106,7 @@
       "operacao": "pulverizada",
       "lastro": "n/a",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 13,
@@ -124,7 +124,7 @@
       "operacao": "pulverizada",
       "lastro": "n/a",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 15,
@@ -169,7 +169,7 @@
       "operacao": "pulverizada",
       "lastro": "n/a",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 20,
@@ -196,7 +196,7 @@
       "operacao": "pulverizada",
       "lastro": "n/a",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 23,
@@ -214,7 +214,7 @@
       "operacao": "pulverizada",
       "lastro": "n/a",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 25,
@@ -232,7 +232,7 @@
       "operacao": "corporativa",
       "lastro": "automatico",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 27,
@@ -241,7 +241,7 @@
       "operacao": "corporativa",
       "lastro": "automatico",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 28,
@@ -259,7 +259,7 @@
       "operacao": "corporativa",
       "lastro": "automatico",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 30,
@@ -277,7 +277,7 @@
       "operacao": "corporativa",
       "lastro": "automatico",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 32,
@@ -286,7 +286,7 @@
       "operacao": "corporativa",
       "lastro": "automatico",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 33,
@@ -304,7 +304,7 @@
       "operacao": "corporativa",
       "lastro": "automatico",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 35,
@@ -322,7 +322,7 @@
       "operacao": "corporativa",
       "lastro": "automatico",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 37,
@@ -340,7 +340,7 @@
       "operacao": "corporativa",
       "lastro": "automatico",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 39,
@@ -349,7 +349,7 @@
       "operacao": "corporativa",
       "lastro": "automatico",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 40,
@@ -367,7 +367,7 @@
       "operacao": "corporativa",
       "lastro": "automatico",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 42,
@@ -385,7 +385,7 @@
       "operacao": "corporativa",
       "lastro": "automatico",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 44,
@@ -394,7 +394,7 @@
       "operacao": "corporativa",
       "lastro": "automatico",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 45,
@@ -412,7 +412,7 @@
       "operacao": "corporativa",
       "lastro": "automatico",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 47,
@@ -430,7 +430,7 @@
       "operacao": "corporativa",
       "lastro": "automatico",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 49,
@@ -448,7 +448,7 @@
       "operacao": "corporativa",
       "lastro": "nao_automatico",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 51,
@@ -457,7 +457,7 @@
       "operacao": "corporativa",
       "lastro": "nao_automatico",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 52,
@@ -475,7 +475,7 @@
       "operacao": "corporativa",
       "lastro": "nao_automatico",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 54,
@@ -484,7 +484,7 @@
       "operacao": "corporativa",
       "lastro": "nao_automatico",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 55,
@@ -493,7 +493,7 @@
       "operacao": "corporativa",
       "lastro": "nao_automatico",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 56,
@@ -502,7 +502,7 @@
       "operacao": "corporativa",
       "lastro": "nao_automatico",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 57,
@@ -511,7 +511,7 @@
       "operacao": "corporativa",
       "lastro": "nao_automatico",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 58,
@@ -538,7 +538,7 @@
       "operacao": "corporativa",
       "lastro": "nao_automatico",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 61,
@@ -556,7 +556,7 @@
       "operacao": "corporativa",
       "lastro": "nao_automatico",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 63,
