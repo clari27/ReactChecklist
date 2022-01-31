@@ -48,10 +48,19 @@ function RadioButtons() {
   };
 
   return (
-    <Box flexDirection="row">
+    <Box
+      sx={{
+        display: "flex",
+        flexDirection: "row",
+        p: 1,
+        m: 1,
+        bgcolor: "background.paper",
+        borderRadius: 1,
+      }}
+    >
       <FormControl>
         <FormLabel id="demo-radio-buttons-group-label">
-          Selecione o tipo de Operação
+          <h2>Selecione o tipo de Operação</h2>
         </FormLabel>
         <RadioGroup
           defaultValue="1"

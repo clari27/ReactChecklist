@@ -16,7 +16,7 @@
       "operacao": "pulverizada",
       "lastro": "n/a",
       "check": "manual",
-      "status": true
+      "status": false
     },
     {
       "id": 3,
@@ -25,7 +25,7 @@
       "operacao": "pulverizada",
       "lastro": "n/a",
       "check": "manual",
-      "status": true
+      "status": false
     },
     {
       "id": 4,
@@ -61,7 +61,7 @@
       "operacao": "pulverizada",
       "lastro": "n/a",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 8,
@@ -88,7 +88,7 @@
       "operacao": "pulverizada",
       "lastro": "n/a",
       "check": "manual",
-      "status": true
+      "status": false
     },
     {
       "id": 11,
@@ -106,7 +106,7 @@
       "operacao": "pulverizada",
       "lastro": "n/a",
       "check": "manual",
-      "status": true
+      "status": false
     },
     {
       "id": 13,
@@ -133,7 +133,7 @@
       "operacao": "pulverizada",
       "lastro": "n/a",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 16,
@@ -151,7 +151,7 @@
       "operacao": "pulverizada",
       "lastro": "n/a",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 18,
@@ -160,7 +160,7 @@
       "operacao": "pulverizada",
       "lastro": "n/a",
       "check": "manual",
-      "status": false
+      "status": true
     },
     {
       "id": 19,
@@ -232,7 +232,7 @@
       "operacao": "corporativa",
       "lastro": "automatico",
       "check": "manual",
-      "status": true
+      "status": false
     },
     {
       "id": 27,
@@ -241,7 +241,7 @@
       "operacao": "corporativa",
       "lastro": "automatico",
       "check": "manual",
-      "status": true
+      "status": false
     },
     {
       "id": 28,
@@ -259,7 +259,7 @@
       "operacao": "corporativa",
       "lastro": "automatico",
       "check": "manual",
-      "status": true
+      "status": false
     },
     {
       "id": 30,
@@ -277,7 +277,7 @@
       "operacao": "corporativa",
       "lastro": "automatico",
       "check": "manual",
-      "status": true
+      "status": false
     },
     {
       "id": 32,
@@ -286,7 +286,7 @@
       "operacao": "corporativa",
       "lastro": "automatico",
       "check": "manual",
-      "status": true
+      "status": false
     },
     {
       "id": 33,
@@ -304,7 +304,7 @@
       "operacao": "corporativa",
       "lastro": "automatico",
       "check": "manual",
-      "status": true
+      "status": false
     },
     {
       "id": 35,
@@ -322,7 +322,7 @@
       "operacao": "corporativa",
       "lastro": "automatico",
       "check": "manual",
-      "status": true
+      "status": false
     },
     {
       "id": 37,
